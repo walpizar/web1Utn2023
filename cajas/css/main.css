@@ -1,0 +1,21 @@
+h2,p,span,li{
+    background-color: blueviolet;
+    border: 1px solid;
+}
+#item1{
+    width: 150px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    text-align: center;
+}
+#limpio2{
+    margin-left: 10px;
+    display: block;
+}
+h2{
+    display: inline;
+    margin: 0px auto;
+}
+#div1,#div2{
+    display: inline;
+}

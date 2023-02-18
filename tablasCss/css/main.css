@@ -9,7 +9,7 @@ td{
 
     font-family: 'Times New Roman', Times, serif;
 }
-.tabla1{
+nav>.menu>a {
 
     margin-top: 20px;
     color:chocolate;
@@ -24,3 +24,4 @@ td{
     border-style: ridge;
 
 }
+

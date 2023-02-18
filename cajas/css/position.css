@@ -1,0 +1,65 @@
+div{
+    width: 200px;
+    height: 200px;
+    color: rgba(255, 255, 255, 0.696);
+}
+
+#div1{
+    background-color: brown;
+    border-radius: 80%;
+    background-image: url("/cajas/image/photo.jpeg");
+     background-repeat: no-repeat;
+    background-position: center; 
+    width: 13%;
+}
+#div2{
+    background-color:#C5D1E3;
+    width: 85%;
+    float: right;
+    padding-left: 20px;
+}
+#div3{
+    background-color: #707680;
+    position: relative;
+    left: 500px;
+
+}
+#div4{
+    background-color: #A9B2C2;
+    position: relative;
+    left: 500px;
+    top:5px;
+  
+}
+#div5{
+    background-color: #35383D;
+    position: absolute;
+    top:500px;
+
+    width: 400px;
+}
+#div6{
+    background-color: #041c45;   
+    position: fixed;
+    bottom: 300px;
+    width: 50px;
+}
+#div6 img{
+    width: 35px;
+    height: 35px;
+    
+}
+
+#div6 img:hover{
+    width: 60px;
+    height: 60px;    
+}
+
+#div1,#div2{
+    display: -webkit-inline-flex;
+}
+#div3,#div4{
+
+    width: 700px;
+    height: 350px;
+}
