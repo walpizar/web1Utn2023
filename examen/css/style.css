@@ -1,0 +1,49 @@
+main{    
+    background-color: rgb(62, 62, 62);
+    margin: 0px 5px;
+}
+header{
+    background-color: white;
+
+}
+nav>ul>li{
+    display: inline;
+    margin: 5px 10px;
+}
+nav>ul>li>a{
+
+    color: black;
+    text-decoration: none;
+}
+section,aside{
+    display: inline-block;  
+}
+section{
+    width: 70%;  
+}
+aside{
+    width: 20%;
+   
+}
+section>div{
+    background-image: url("/examen/img/fondo.jfif");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+}
+
+aside>div{
+    background-color: aqua;
+    padding:  10px;
+    position: relative;
+    bottom: 431px;
+}
+
+aside>div>ul>li{
+    text-decoration: none;
+    border-bottom: 1px solid;
+    list-style-type: none;
+    margin-right: 20px;
+    padding: 5px 0px;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <form action="" method="get">
+
+          
+            <div class="input">   
+                <label for="id" >Nombre:</label>
+                <input type="text" name="id" id="id" placeholder="Digite su nombre" maxlength="30" >
+            </div>
+                 
+            <div class="input">   
+                <label for="id" >Numero:</label>
+                <input type="number" name="num" id="num" placeholder="Digite su nombre" maxlength="30" >
+            </div>
+               
+            <div class="input">          
+                <label for="pass">Contraseña:</label>
+                <input type="password" name="pass" id="pass">
+            </div>
+
+            <div class="input">          
+                <label for="color">Color:</label>
+                <input type="color" name="color" id="color">
+            </div>
+
+            <div class="input">          
+                <label for="fecha">Fecha:</label>
+                <input type="date" name="fecha" id="fecha">
+            </div>
+
+            <div class="input">          
+                <label for="hora">Hora:</label>
+                <input type="time" name="hora" id="hora">
+            </div>
+
+            <div class="input">          
+                <label for="correo">Correo Electronico:</label>
+                <input type="email" name="correo" id="correo">
+            </div>
+            
+            <div class="input">          
+                <label for="url">Url:</label>
+                <input type="url" name="url" id="url">
+            </div>
+
+            <div class="input">          
+                <label for="file">Archivo:</label>
+                <input type="file" name="file" id="file">
+            </div>
+
+            
+            <div class="input">          
+                <label for="edad">EDAD:</label>
+                <input type="range" name="edad" id="edad" max="90" min="15">
+            </div>
+
+            <div class="input">      
+                
+                <input type="hidden" name="codigo" id="codigo">
+            </div>
+
+            <div class="input">          
+                <label for="file">Archivo:</label>
+                <input type="file" name="file" id="file">
+            </div>
+            <div class="input">          
+                <label for="file">Descripción:</label>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">          
+                <label for="file">Pizza:</label>
+                <input type="radio" name="comida" value="1">
+               
+                <label for="file">Hambuerguesa:</label>
+                <input type="radio" name="comida" value="2">
+
+                <label for="file">Tacos:</label>
+                <input type="radio" name="comida" value="3">
+
+                <label for="file">Perros:</label>
+                <input type="radio" name="comida" value="4">
+            </div>
+
+            <div class="input">          
+                <label for="file">Natural:</label>
+                <input type="checkbox" name="bebida" value="1">
+               
+                <label for="file">Gaseosa:</label>
+                <input type="checkbox" name="bebida" value="2">
+
+                <label for="file">Alcholica:</label>
+                <input type="checkbox" name="bebida" value="3">
+
+                <label for="file">Otros:</label>
+                <input type="checkbox" name="bebida" value="4">
+            </div>
+            <div class="input">          
+                <label for="file">Escoja Marca:</label>
+                <select name="marca" id="marca">
+
+                    <option value="1">Toyota</option>
+                    <option value="2">Nissan</option>
+                    <option value="3" selected>Mitsubishi</option>
+                    <option value="4">AUDI</option>
+                    <option value="5">MBW</option>
+                </select>
+               
+            </div>
+
+            
+      
+      
+        
+ 
+
+        <input type="submit" value="Enviar"> 
+        <input type="reset" value="Limpiar">
+    </form>
+</body>
+</html>
